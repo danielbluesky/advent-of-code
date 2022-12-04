@@ -1,36 +1,31 @@
 import java.io.File
 
-fun readInputFile(fileName: String) = File(fileName)
-    .forEachLine { println(it) }
-
-fun readInputFile2(fileName: String) = File(fileName)
-    .forEachLine { if (!it.equals("")) { println(it) } }
-
 fun caloriesVar1(fileName: String) {
-    var x: Int = 0
-    var y: Int = 0
+    var calories: Int = 0
+    var sums: Int = 0
     File(fileName).forEachLine {
         if (it.isNotEmpty()) {
-            x += it.toInt()
+            calories += it.toInt()
         } else {
-            y = maxOf(y, x)
-            x = 0
+            sums = maxOf(sums, calories)
+            calories = 0
         }
     }
-    println(y)
+    println(sums)
 }
 
 fun caloriesVar2(fileName: String) {
-    val cals = mutableListOf<Number>()
-    val sums = mutableListOf<Number>()
+    val cals = mutableListOf<Int>()
+    val sums = mutableListOf<Int>()
     File(fileName).forEachLine {
-        if (it.isNotEmpty()) { cals.add(it.toInt())
+        if (it.isNotEmpty()) {
+            cals.add(it.toInt())
         } else {
-            sums.add(cals.sumOf { c -> c.toInt() })
+            sums.add(cals.sum())
             cals.clear()
         }
     }
-    println(sums.maxOf { s -> s.toInt() })
+    println(sums.max())
 }
 
 fun caloriesTopThree(fileName: String) {

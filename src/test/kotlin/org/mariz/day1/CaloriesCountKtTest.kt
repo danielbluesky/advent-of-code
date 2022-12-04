@@ -1,9 +1,9 @@
 package org.mariz.day1
 
 import caloriesTopThree
-import org.junit.jupiter.api.Test
-import caloriesVar2
 import caloriesVar1
+import caloriesVar2
+import org.junit.jupiter.api.Test
 
 internal class CaloriesCountKtTest {
 
@@ -21,5 +21,4 @@ internal class CaloriesCountKtTest {
     fun caloriesTopThreeTest() {
         caloriesTopThree("src/main/resources/input-day-1.txt")
     }
-
 }
