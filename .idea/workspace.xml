@@ -5,25 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16d50c51-95f4-42f9-ab3f-a1d1c595a817" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day1/CaloriesCount.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day1/CaloriesCount.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2IOxDlQybW5LzDujeQfeqKj3xdl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -36,10 +45,236 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/daniel/IdeaProjects/advent-of-code-2022"
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/Users/daniel/IdeaProjects/advent-of-code/src/main",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/test/kotlin" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/org/mariz" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.mariz.day1" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.mariz.day1" />
+      <recent name="day1" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="org.mariz.day1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CaloriesCountKtTest (2)">
+    <configuration name="CaloriesCountKtTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day1" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day1.CaloriesCountKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CaloriesCountKtTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day1" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day1.CaloriesCountKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CaloriesCountKtTest (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day1" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day1.CaloriesCountKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CaloriesCountKtTest (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day1" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day1.CaloriesCountKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CaloriesCountKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day1" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day1.CaloriesCountKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CaloriesCountKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day1" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day1.CaloriesCountKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CaloriesCountKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day1" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day1.CaloriesCountKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CaloriesCountKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day1" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day1.CaloriesCountKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKtTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day1" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day1.MainKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKtTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day1" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day1.MainKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKtTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day1" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day1.MainKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniversalObjectMethodsTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day1" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day1.UniversalObjectMethodsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniversalObjectMethodsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day1" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day1.UniversalObjectMethodsTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -51,6 +286,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.CaloriesCountKtTest" />
+      <item itemvalue="JUnit.CaloriesCountKtTest (1)" />
+      <item itemvalue="JUnit.CaloriesCountKtTest (2)" />
+      <item itemvalue="JUnit.CaloriesCountKtTest (4)" />
+      <item itemvalue="JUnit.CaloriesCountKtTest (5)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CaloriesCountKtTest (2)" />
+        <item itemvalue="JUnit.CaloriesCountKtTest (1)" />
+        <item itemvalue="JUnit.CaloriesCountKtTest" />
+        <item itemvalue="JUnit.CaloriesCountKtTest (5)" />
+        <item itemvalue="JUnit.CaloriesCountKtTest (4)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,6 +312,14 @@
       <option name="presentableId" value="Default" />
       <updated>1670066318482</updated>
     </task>
+    <task id="LOCAL-00001" summary="exercises day 1">
+      <created>1670184110451</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670184110451</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -68,10 +327,36 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="day-1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="exercises day 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercises day 1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
