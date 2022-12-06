@@ -13,3 +13,17 @@ fun findOverlapsPart1(fileName: String): Int {
     }
     return count
 }
+
+fun findOverlapsPart2(fileName: String): Int {
+    var count = 0
+    File(fileName).forEachLine {
+        val s1low = it.substringBefore("-").toInt()
+        val s1high = it.substringAfter("-").substringBefore(",").toInt()
+        val s2low = it.substringAfter(",").substringBefore("-").toInt()
+        val s2high = it.substringAfterLast("-").toInt()
+        if (s1high < s2low || s2high < s1low) { } else {
+            count += 1
+        }
+    }
+    return count
+}
