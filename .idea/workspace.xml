@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16d50c51-95f4-42f9-ab3f-a1d1c595a817" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day4/FindOverlaps.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day4/FindOverlapsKtTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day2/RockPaperScissors.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day2/RockPaperScissors.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/Users/daniel/IdeaProjects/advent-of-code/src/main/kotlin/org/mariz/day2",
+    "last_opened_file_path": "/Users/daniel/IdeaProjects/advent-of-code/src/main/kotlin/org/mariz/day4",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -56,6 +57,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/org/mariz/day4" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/org/mariz/day2" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/org/mariz" />
       <recent name="$PROJECT_DIR$/src/main" />
@@ -76,86 +78,12 @@
       <recent name="day1" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="org.mariz.day4" />
       <recent name="org.mariz.day2" />
       <recent name="org.mariz.day1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CaloriesCountKtTest (4)">
-    <configuration name="CaloriesCountKtTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mariz.day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mariz.day2" />
-      <option name="MAIN_CLASS_NAME" value="org.mariz.day2.CaloriesCountKtTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CaloriesCountKtTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mariz.day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mariz.day2" />
-      <option name="MAIN_CLASS_NAME" value="org.mariz.day2.CaloriesCountKtTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CaloriesCountKtTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mariz.day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mariz.day2" />
-      <option name="MAIN_CLASS_NAME" value="org.mariz.day2.CaloriesCountKtTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CaloriesCountKtTest (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mariz.day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mariz.day2" />
-      <option name="MAIN_CLASS_NAME" value="org.mariz.day2.CaloriesCountKtTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CaloriesCountKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mariz.day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mariz.day2" />
-      <option name="MAIN_CLASS_NAME" value="org.mariz.day2.CaloriesCountKtTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.FindOverlapsKtTest">
     <configuration name="CaloriesCountKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <extension name="coverage">
@@ -196,6 +124,81 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.mariz.day1" />
       <option name="MAIN_CLASS_NAME" value="org.mariz.day1.CaloriesCountKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindOverlapsKtTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day4" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day4.FindOverlapsKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindOverlapsKtTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day4" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day4.FindOverlapsKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindOverlapsKtTest (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day4" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day4.FindOverlapsKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindOverlapsKtTest (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day4" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day4.FindOverlapsKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindOverlapsKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day4" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day4.FindOverlapsKtTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -213,19 +216,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CaloriesCountKtTest (3)" />
-      <item itemvalue="JUnit.CaloriesCountKtTest" />
-      <item itemvalue="JUnit.CaloriesCountKtTest (1)" />
-      <item itemvalue="JUnit.CaloriesCountKtTest (2)" />
-      <item itemvalue="JUnit.CaloriesCountKtTest (4)" />
+      <item itemvalue="JUnit.FindOverlapsKtTest" />
+      <item itemvalue="JUnit.FindOverlapsKtTest (2)" />
+      <item itemvalue="JUnit.FindOverlapsKtTest (3)" />
+      <item itemvalue="JUnit.FindOverlapsKtTest (4)" />
+      <item itemvalue="JUnit.FindOverlapsKtTest (5)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CaloriesCountKtTest (4)" />
-        <item itemvalue="JUnit.CaloriesCountKtTest (3)" />
-        <item itemvalue="JUnit.CaloriesCountKtTest (2)" />
-        <item itemvalue="JUnit.CaloriesCountKtTest (1)" />
-        <item itemvalue="JUnit.CaloriesCountKtTest" />
+        <item itemvalue="JUnit.FindOverlapsKtTest" />
+        <item itemvalue="JUnit.FindOverlapsKtTest (5)" />
+        <item itemvalue="JUnit.FindOverlapsKtTest (4)" />
+        <item itemvalue="JUnit.FindOverlapsKtTest (3)" />
+        <item itemvalue="JUnit.FindOverlapsKtTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +290,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670352993085</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="day 2: exercise 2, improvements">
+      <created>1670354350061</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670354350061</updated>
+    </task>
+    <task id="LOCAL-00009" summary="day 2: exercise 2, improvements">
+      <created>1670354465087</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670354465087</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -319,7 +336,8 @@
     <MESSAGE value="day 2: exercise 1" />
     <MESSAGE value="day 2: exercise 1, improvements" />
     <MESSAGE value="day 2: exercise 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 2: exercise 2" />
+    <MESSAGE value="day 2: exercise 2, improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 2: exercise 2, improvements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
