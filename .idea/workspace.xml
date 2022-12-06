@@ -7,7 +7,6 @@
     <list default="true" id="16d50c51-95f4-42f9-ab3f-a1d1c595a817" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day2/RockPaperScissors.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day2/RockPaperScissors.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day2/RockPaperScissorsKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day2/RockPaperScissorsKtTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +80,23 @@
       <recent name="org.mariz.day1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CaloriesCountKtTest (1)">
+  <component name="RunManager" selected="JUnit.CaloriesCountKtTest (4)">
     <configuration name="CaloriesCountKtTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day2" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day2.CaloriesCountKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CaloriesCountKtTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <extension name="coverage">
         <pattern>
@@ -113,21 +127,6 @@
       </method>
     </configuration>
     <configuration name="CaloriesCountKtTest (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mariz.day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mariz.day2" />
-      <option name="MAIN_CLASS_NAME" value="org.mariz.day2.CaloriesCountKtTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CaloriesCountKtTest (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <extension name="coverage">
         <pattern>
@@ -217,16 +216,16 @@
       <item itemvalue="JUnit.CaloriesCountKtTest (3)" />
       <item itemvalue="JUnit.CaloriesCountKtTest" />
       <item itemvalue="JUnit.CaloriesCountKtTest (1)" />
+      <item itemvalue="JUnit.CaloriesCountKtTest (2)" />
       <item itemvalue="JUnit.CaloriesCountKtTest (4)" />
-      <item itemvalue="JUnit.CaloriesCountKtTest (5)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CaloriesCountKtTest (1)" />
-        <item itemvalue="JUnit.CaloriesCountKtTest" />
-        <item itemvalue="JUnit.CaloriesCountKtTest (5)" />
         <item itemvalue="JUnit.CaloriesCountKtTest (4)" />
         <item itemvalue="JUnit.CaloriesCountKtTest (3)" />
+        <item itemvalue="JUnit.CaloriesCountKtTest (2)" />
+        <item itemvalue="JUnit.CaloriesCountKtTest (1)" />
+        <item itemvalue="JUnit.CaloriesCountKtTest" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670308527350</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="day 2: exercise 2">
+      <created>1670352993085</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670352993085</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,7 +318,8 @@
     <MESSAGE value="day 1: exercises" />
     <MESSAGE value="day 2: exercise 1" />
     <MESSAGE value="day 2: exercise 1, improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 2: exercise 1, improvements" />
+    <MESSAGE value="day 2: exercise 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 2: exercise 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

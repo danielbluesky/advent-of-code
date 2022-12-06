@@ -30,11 +30,15 @@ val winningRules = mapOf(
     PAPER to ROCK
 )
 
-fun whatToChoose(o: Hand, outcome: String): Hand {
+val loosingRules = winningRules
+    .toList()
+    .associate { (k, v) -> v to k }
+
+fun getElvesHand(o: Hand, outcome: String): Hand {
     return when (outcome) {
         "Y" -> elvesHand[elvesHand.filterValues { it == Hand(o.symbol) }.keys.first()]!!
         "X" -> elvesHand[elvesHand.filterValues { it == Hand(winningRules[o.symbol]!!) }.keys.first()]!!
-        "Z" -> elvesHand[elvesHand.filterValues { it == Hand(winningRules.filterValues { it == o.symbol }.keys.first()) }.keys.first()]!!
+        "Z" -> elvesHand[elvesHand.filterValues { it == Hand(loosingRules[o.symbol]!!) }.keys.first()]!!
         else -> throw Exception("Not found")
     }
 }
@@ -61,7 +65,7 @@ fun playPart2(fileName: String): Int {
     var score = 0
     File(fileName).forEachLine {
         val o = opponentsHand[it.substringBefore(" ")]!!
-        val e = whatToChoose(o, it.substringAfter(" "))
+        val e = getElvesHand(o, it.substringAfter(" "))
         score += evaluate(o, e).plus(valueOf(e.symbol.name).value())
     }
     return score
