@@ -24,12 +24,16 @@ val opponentsHand = mapOf(
     "C" to Hand(SCISSORS)
 )
 
-fun evaluate(e: Hand, o: Hand): Int {
-    return when {
-        e.symbol == o.symbol -> 3
-        e.symbol == ROCK && o.symbol == SCISSORS -> 6
-        e.symbol == SCISSORS && o.symbol == PAPER -> 6
-        e.symbol == PAPER && o.symbol == ROCK -> 6
+val winningRules = mapOf(
+    ROCK to SCISSORS,
+    SCISSORS to PAPER,
+    PAPER to ROCK
+)
+
+fun evaluate(o: Hand, e: Hand): Int {
+    return when (o.symbol) {
+        e.symbol -> 3
+        winningRules[e.symbol] -> 6
         else -> 0
     }
 }
@@ -37,9 +41,9 @@ fun evaluate(e: Hand, o: Hand): Int {
 fun play(fileName: String): Int {
     var score = 0
     File(fileName).forEachLine {
-        val e = elvesHand[it.substringAfter(" ")]!!
         val o = opponentsHand[it.substringBefore(" ")]!!
-        score += evaluate(e, o).plus(valueOf(e.symbol.name).value())
+        val e = elvesHand[it.substringAfter(" ")]!!
+        score += evaluate(o, e).plus(valueOf(e.symbol.name).value())
     }
     return score
 }
