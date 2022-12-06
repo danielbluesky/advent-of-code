@@ -1,12 +1,18 @@
 package org.mariz.day2
 
 import org.junit.jupiter.api.Test
-import play
+import playPart1
+import playPart2
 
 internal class CaloriesCountKtTest {
 
     @Test
-    fun RockPaperScissorsTest() {
-        println(play("src/main/resources/input-day-2.txt"))
+    fun RockPaperScissorsTestPart1() {
+        println(playPart1("src/main/resources/input-day-2.txt"))
+    }
+
+    @Test
+    fun RockPaperScissorsTestPart2() {
+        println(playPart2("src/main/resources/input-day-2.txt"))
     }
 }
