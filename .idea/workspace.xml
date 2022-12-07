@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16d50c51-95f4-42f9-ab3f-a1d1c595a817" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day3/Rucksack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day3/RucksackKtTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day3/Rucksack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day3/Rucksack.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day3/RucksackKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day3/RucksackKtTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <recent name="org.mariz.day1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RucksackKtTest (4)">
+  <component name="RunManager" selected="JUnit.RucksackKtTest">
     <configuration name="CaloriesCountKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <extension name="coverage">
@@ -125,21 +125,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.mariz.day1" />
       <option name="MAIN_CLASS_NAME" value="org.mariz.day1.CaloriesCountKtTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RucksackKtTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mariz.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mariz.day3" />
-      <option name="MAIN_CLASS_NAME" value="org.mariz.day3.RucksackKtTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,6 +175,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RucksackKtTest (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day3" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day3.RucksackKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RucksackKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <extension name="coverage">
@@ -218,18 +218,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.RucksackKtTest" />
-      <item itemvalue="JUnit.RucksackKtTest (1)" />
       <item itemvalue="JUnit.RucksackKtTest (2)" />
       <item itemvalue="JUnit.RucksackKtTest (3)" />
       <item itemvalue="JUnit.RucksackKtTest (4)" />
+      <item itemvalue="JUnit.RucksackKtTest (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RucksackKtTest" />
+        <item itemvalue="JUnit.RucksackKtTest (5)" />
         <item itemvalue="JUnit.RucksackKtTest (4)" />
         <item itemvalue="JUnit.RucksackKtTest (3)" />
         <item itemvalue="JUnit.RucksackKtTest (2)" />
-        <item itemvalue="JUnit.RucksackKtTest (1)" />
-        <item itemvalue="JUnit.RucksackKtTest" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670360330360</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="day 3: exercise 1">
+      <created>1670432722812</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670432722812</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -359,10 +366,10 @@
     <MESSAGE value="day 2: exercise 1, improvements" />
     <MESSAGE value="day 2: exercise 2" />
     <MESSAGE value="day 2: exercise 2, improvements" />
-    <MESSAGE value="day 3: exercise 1" />
     <MESSAGE value="day 4: exercise 1" />
     <MESSAGE value="day 4: exercise 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 4: exercise 2" />
+    <MESSAGE value="day 3: exercise 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 3: exercise 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
