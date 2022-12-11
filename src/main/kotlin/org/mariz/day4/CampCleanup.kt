@@ -1,6 +1,6 @@
 import java.io.File
 
-fun findOverlapsPart1(fileName: String): Int {
+fun campCleanupPart1(fileName: String): Int {
     var count = 0
     File(fileName).forEachLine {
         val s1low = it.substringBefore("-").toInt()
@@ -14,7 +14,7 @@ fun findOverlapsPart1(fileName: String): Int {
     return count
 }
 
-fun findOverlapsPart2(fileName: String): Int {
+fun campCleanupPart2(fileName: String): Int {
     var count = 0
     File(fileName).forEachLine {
         val s1low = it.substringBefore("-").toInt()

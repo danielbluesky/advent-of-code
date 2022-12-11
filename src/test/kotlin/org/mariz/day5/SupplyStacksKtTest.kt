@@ -22,6 +22,7 @@ internal class SupplyStacksKtTest {
         println(supplyStacksPart1Solution2("src/main/resources/input-day-5.txt"))
     }
 
+    // "unit" tests
     @Test
     fun testParseStacks() {
         val input: List<String> = listOf(

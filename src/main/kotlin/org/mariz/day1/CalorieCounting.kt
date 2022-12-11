@@ -1,6 +1,6 @@
 import java.io.File
 
-fun caloriesVar1(fileName: String) {
+fun caloriesSolution1(fileName: String) {
     var calories: Int = 0
     var sums: Int = 0
     File(fileName).forEachLine {
@@ -14,7 +14,7 @@ fun caloriesVar1(fileName: String) {
     println(sums)
 }
 
-fun caloriesVar2(fileName: String) {
+fun caloriesSolution2(fileName: String) {
     val cals = mutableListOf<Int>()
     val sums = mutableListOf<Int>()
     File(fileName).forEachLine {
