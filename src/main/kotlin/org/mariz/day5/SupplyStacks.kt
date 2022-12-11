@@ -1,5 +1,6 @@
 import java.io.File
 
+// Part 1 - Solution 1
 fun supplyStacksPart1(fileName: String, debug: Boolean): String {
     val temps = mapOf<Number, MutableList<String>> (
         1 to mutableListOf(),
@@ -31,7 +32,7 @@ fun supplyStacksPart1(fileName: String, debug: Boolean): String {
     File(fileName).forEachLine {
         // extract stack data into temps
         if (line <= 8) {
-            for (i in 1..9) {
+            for (i in 1..temps.size) {
                 if (it
                     .chunked(4)[i - 1]
                     .contains("   ", false)
@@ -49,7 +50,7 @@ fun supplyStacksPart1(fileName: String, debug: Boolean): String {
         }
         // reverse temps into initial stacks situation
         if (line == 10) {
-            for (i in 1..9) {
+            for (i in 1..temps.size) {
                 stacks[i]!!.addAll(temps[i]!!.reversed())
             }
             if (debug) { println("stacks initial: $stacks") }
@@ -85,6 +86,5 @@ fun supplyStacksPart1(fileName: String, debug: Boolean): String {
     for (i in 1..9) {
         result = result.plus(stacks[i]!!.last())
     }
-
     return result
 }
