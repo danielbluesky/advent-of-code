@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16d50c51-95f4-42f9-ab3f-a1d1c595a817" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day5/SupplyStacksSolution2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day5/SupplyStacks.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day5/SupplyStacks.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day5/SupplyStacksSolution2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day5/SupplyStacksSolution2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day5/SupplyStacksKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day5/SupplyStacksKtTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +85,7 @@
       <recent name="org.mariz.day1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SupplyStacksKtTest (1)">
+  <component name="RunManager" selected="JUnit.SupplyStacksKtTest">
     <configuration name="CaloriesCountKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <extension name="coverage">
@@ -132,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupplyStacksKtTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SupplyStacksKtTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <extension name="coverage">
         <pattern>
@@ -220,18 +219,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SupplyStacksKtTest" />
-      <item itemvalue="JUnit.SupplyStacksKtTest (1)" />
+      <item itemvalue="JUnit.SupplyStacksKtTest (2)" />
       <item itemvalue="JUnit.SupplyStacksKtTest (3)" />
       <item itemvalue="JUnit.SupplyStacksKtTest (4)" />
       <item itemvalue="JUnit.SupplyStacksKtTest (5)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SupplyStacksKtTest (1)" />
         <item itemvalue="JUnit.SupplyStacksKtTest" />
         <item itemvalue="JUnit.SupplyStacksKtTest (5)" />
         <item itemvalue="JUnit.SupplyStacksKtTest (4)" />
         <item itemvalue="JUnit.SupplyStacksKtTest (3)" />
+        <item itemvalue="JUnit.SupplyStacksKtTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670514241001</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="day 5: exercise 1, solution 2">
+      <created>1670764852515</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670764852515</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,7 +407,8 @@
     <MESSAGE value="day 3: exercise 1" />
     <MESSAGE value="day 3: exercise 2" />
     <MESSAGE value="day 5: exercise 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 5: exercise 1" />
+    <MESSAGE value="day 5: exercise 1, solution 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 5: exercise 1, solution 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

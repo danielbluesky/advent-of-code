@@ -52,7 +52,7 @@ fun parseMoves(input: List<String>): Map<Int, MutableList<Int>> {
     return map
 }
 
-fun doMoveOperations(stacks: MutableMap<Int, MutableList<String>>, moveInstructions: Map<Int, MutableList<Int>>) {
+fun doMoveOperations(stacks: MutableMap<Int, MutableList<String>>, moveInstructions: Map<Int, MutableList<Int>>): MutableMap<Int, MutableList<String>> {
     // for (i in 0..moves.size) {
     for (i in 0 until moveInstructions.size) {
         val stackOut = moveInstructions[i]!!.elementAt(1)
@@ -63,6 +63,7 @@ fun doMoveOperations(stacks: MutableMap<Int, MutableList<String>>, moveInstructi
             stacks[stackOut]!!.removeAt(stacks[stackOut]!!.lastIndex)
         }
     }
+    return stacks
 }
 
 fun result(stacks: MutableMap<Int, MutableList<String>>): String {
