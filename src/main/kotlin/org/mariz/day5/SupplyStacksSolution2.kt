@@ -1,10 +1,10 @@
 import java.io.File
 
 fun supplyStacksPart1Solution2(fileName: String): String {
-    val stackMap = parseStacks(splitFile("src/main/resources/input-day-5.txt")[0])
-    val moveInstructions = parseMoves(splitFile("src/main/resources/input-day-5.txt")[1])
+    val stackMap = parseStacks(splitFile(fileName)[0])
+    val moveInstructions = parseMoves(splitFile(fileName)[1])
     doMoveOperations(stackMap, moveInstructions)
-    return result(stackMap)
+    return calculateResult(stackMap)
 }
 
 fun splitFile(fileName: String): List<List<String>> {
@@ -53,11 +53,10 @@ fun parseMoves(input: List<String>): Map<Int, MutableList<Int>> {
 }
 
 fun doMoveOperations(stacks: MutableMap<Int, MutableList<String>>, moveInstructions: Map<Int, MutableList<Int>>): MutableMap<Int, MutableList<String>> {
-    // for (i in 0..moves.size) {
     for (i in 0 until moveInstructions.size) {
         val stackOut = moveInstructions[i]!!.elementAt(1)
         val stackIn = moveInstructions[i]!!.elementAt(2)
-        for (itemCount in 1..moveInstructions[i]!!.elementAt(0)) {
+        for (instruction in 1..moveInstructions[i]!!.elementAt(0)) {
             val elementOut = stacks[stackOut]!!.last()
             stacks[stackIn]!!.add(elementOut)
             stacks[stackOut]!!.removeAt(stacks[stackOut]!!.lastIndex)
@@ -66,9 +65,9 @@ fun doMoveOperations(stacks: MutableMap<Int, MutableList<String>>, moveInstructi
     return stacks
 }
 
-fun result(stacks: MutableMap<Int, MutableList<String>>): String {
+fun calculateResult(stacks: MutableMap<Int, MutableList<String>>): String {
     var result = ""
-    for (i in 1..9) {
+    for (i in 1..stacks.size) {
         result = result.plus(stacks[i]!!.last())
     }
     return result
