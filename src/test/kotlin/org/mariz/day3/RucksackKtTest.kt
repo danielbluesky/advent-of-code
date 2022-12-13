@@ -5,12 +5,12 @@ import org.junit.jupiter.api.Test
 internal class RucksackKtTest {
 
     @Test
-    fun testRucksackPart1() {
+    fun rucksackPart1Result() {
         println(rucksackPart1("src/main/resources/input-day-3.txt"))
     }
 
     @Test
-    fun testRucksackPart2() {
+    fun rucksackPart2Result() {
         println(rucksackPart2("src/main/resources/input-day-3.txt"))
     }
 }

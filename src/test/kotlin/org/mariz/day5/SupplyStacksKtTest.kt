@@ -11,13 +11,13 @@ internal class SupplyStacksKtTest {
     }
     */
     @Test
-    fun testSupplyStacksPart1Solution2() {
+    fun supplyStacksPart1Solution2Result() {
         println(supplyStacksPart1Solution2("src/main/resources/input-day-5.txt", CrateMover.CrateMover9001))
     }
 
     // "unit" tests
     @Test
-    fun testParseStacks() {
+    fun parseStacksTest() {
         val input: List<String> = listOf(
             "[H] [M] [N] [Z] [M] [C] [M] [P] [P]",
             "[P]     [L]         [T] [X]        ",
@@ -38,7 +38,7 @@ internal class SupplyStacksKtTest {
     }
 
     @Test
-    fun testParseMoveInstructions() {
+    fun parseMoveInstructionsTest() {
         val input: List<String> = listOf(
             "move 8 from 3 to 2",
             "move 13 from 8 to 4",
@@ -53,7 +53,7 @@ internal class SupplyStacksKtTest {
     }
 
     @Test
-    fun testDoMoveOperationsCrateMover9000() {
+    fun doMoveOperationsCrateMover9000Test() {
         val stacks: MutableMap<Int, MutableList<String>> = mutableMapOf(
             1 to mutableListOf("A", "B", "C", "D", "E", "F"),
             2 to mutableListOf("M"),
@@ -73,7 +73,7 @@ internal class SupplyStacksKtTest {
     }
 
     @Test
-    fun testDoMoveOperationsCrateMover9001() {
+    fun doMoveOperationsCrateMover9001Test() {
         val stacks: MutableMap<Int, MutableList<String>> = mutableMapOf(
             1 to mutableListOf("Z", "N"),
             2 to mutableListOf("M", "C", "D"),

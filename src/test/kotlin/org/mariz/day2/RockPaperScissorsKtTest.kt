@@ -7,12 +7,12 @@ import playPart2
 internal class CaloriesCountKtTest {
 
     @Test
-    fun RockPaperScissorsTestPart1() {
+    fun rockPaperScissorsResultPart1() {
         println(playPart1("src/main/resources/input-day-2.txt"))
     }
 
     @Test
-    fun RockPaperScissorsTestPart2() {
+    fun rockPaperScissorsResultPart2() {
         println(playPart2("src/main/resources/input-day-2.txt"))
     }
 }

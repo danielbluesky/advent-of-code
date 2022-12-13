@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16d50c51-95f4-42f9-ab3f-a1d1c595a817" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day6/TuningTrouble.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day6/input-test-1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day6/TuningTroubleKtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/input-day-6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day6/input-test-2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day1/CalorieCounting.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day1/CalorieCounting.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day3/Rucksack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day3/Rucksack.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day4/CampCleanup.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day4/CampCleanup.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day5/SupplyStacks.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day5/SupplyStacks.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day5/SupplyStacksSolution2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day5/SupplyStacksSolution2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day1/CalorieCountingKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day1/CalorieCountingKtTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day2/RockPaperScissorsKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day2/RockPaperScissorsKtTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day3/RucksackKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day3/RucksackKtTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day4/CampCleanupKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day4/CampCleanupKtTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day5/SupplyStacksKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day5/SupplyStacksKtTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day6/TuningTroubleKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day6/TuningTroubleKtTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +54,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/Users/daniel/IdeaProjects/advent-of-code/src/main/kotlin/org/mariz/day6",
+    "last_opened_file_path": "/Users/daniel/IdeaProjects/advent-of-code/src/test/kotlin/org/mariz/day6",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -67,13 +63,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/kotlin/org/mariz/day6" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/org/mariz/day6" />
       <recent name="$PROJECT_DIR$/src/test/kotlin/org/mariz" />
       <recent name="$PROJECT_DIR$/src/main/kotlin" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/org/mariz/day5" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin/org/mariz/day3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/kotlin/org/mariz/day6" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
@@ -95,7 +92,7 @@
       <recent name="org.mariz.day1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TuningTroubleKtTest (3)">
+  <component name="RunManager" selected="JUnit.TuningTroubleKtTest (1)">
     <configuration name="CaloriesCountKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <extension name="coverage">
@@ -136,57 +133,57 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.mariz.day1" />
       <option name="MAIN_CLASS_NAME" value="org.mariz.day1.CaloriesCountKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CampCleanupKtTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day4" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day4.CampCleanupKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RucksackKtTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day3" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day3.RucksackKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SupplyStacksKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day5" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day5.SupplyStacksKtTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TuningTroubleKtTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mariz.day6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mariz.day6" />
-      <option name="MAIN_CLASS_NAME" value="org.mariz.day6.TuningTroubleKtTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TuningTroubleKtTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mariz.day6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mariz.day6" />
-      <option name="MAIN_CLASS_NAME" value="org.mariz.day6.TuningTroubleKtTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TuningTroubleKtTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mariz.day6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mariz.day6" />
-      <option name="MAIN_CLASS_NAME" value="org.mariz.day6.TuningTroubleKtTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TuningTroubleKtTest (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <extension name="coverage">
         <pattern>
@@ -228,19 +225,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.CampCleanupKtTest (1)" />
+      <item itemvalue="JUnit.RucksackKtTest (1)" />
       <item itemvalue="JUnit.TuningTroubleKtTest" />
       <item itemvalue="JUnit.TuningTroubleKtTest (1)" />
-      <item itemvalue="JUnit.TuningTroubleKtTest (2)" />
-      <item itemvalue="JUnit.TuningTroubleKtTest (3)" />
-      <item itemvalue="JUnit.TuningTroubleKtTest (5)" />
+      <item itemvalue="JUnit.SupplyStacksKtTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TuningTroubleKtTest (3)" />
-        <item itemvalue="JUnit.TuningTroubleKtTest (2)" />
         <item itemvalue="JUnit.TuningTroubleKtTest (1)" />
         <item itemvalue="JUnit.TuningTroubleKtTest" />
-        <item itemvalue="JUnit.TuningTroubleKtTest (5)" />
+        <item itemvalue="JUnit.CampCleanupKtTest (1)" />
+        <item itemvalue="JUnit.SupplyStacksKtTest" />
+        <item itemvalue="JUnit.RucksackKtTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -414,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670878998825</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="day 6: exercise 1">
+      <created>1670969634446</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1670969634446</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -456,7 +460,8 @@
     <MESSAGE value="renamings" />
     <MESSAGE value="day 5: exercise 1, solution 2: tests" />
     <MESSAGE value="day 5: exercise 2 (wip)" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 5: exercise 2 (wip)" />
+    <MESSAGE value="day 6: exercise 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 6: exercise 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
