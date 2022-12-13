@@ -1,3 +1,5 @@
+package org.mariz.day3
+
 import java.io.File
 
 fun rucksackPart1(fileName: String): Int {

@@ -1,7 +1,5 @@
 package org.mariz.day4
 
-import campCleanupPart1
-import campCleanupPart2
 import org.junit.jupiter.api.Test
 
 internal class CampCleanupKtTest {

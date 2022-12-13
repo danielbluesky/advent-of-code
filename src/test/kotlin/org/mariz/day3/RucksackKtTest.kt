@@ -1,8 +1,6 @@
 package org.mariz.day3
 
 import org.junit.jupiter.api.Test
-import rucksackPart1
-import rucksackPart2
 
 internal class RucksackKtTest {
 

@@ -1,3 +1,5 @@
+package org.mariz.day5
+
 import java.io.File
 import kotlin.math.min
 import kotlin.math.roundToInt

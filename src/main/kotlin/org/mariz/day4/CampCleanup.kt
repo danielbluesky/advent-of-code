@@ -1,3 +1,5 @@
+package org.mariz.day4
+
 import java.io.File
 
 fun campCleanupPart1(fileName: String): Int {

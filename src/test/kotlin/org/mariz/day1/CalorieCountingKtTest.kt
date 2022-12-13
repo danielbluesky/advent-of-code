@@ -1,8 +1,5 @@
 package org.mariz.day1
 
-import caloriesTopThree
-import caloriesSolution1
-import caloriesSolution2
 import org.junit.jupiter.api.Test
 
 internal class CalorieCountingKtTest {

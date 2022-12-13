@@ -1,3 +1,5 @@
+package org.mariz.day5
+
 import java.io.File
 
 // Part 1 - Solution 1

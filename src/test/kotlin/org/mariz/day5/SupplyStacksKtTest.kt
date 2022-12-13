@@ -1,13 +1,6 @@
 package org.mariz.day5
 
-import CrateMover
-import calculateResult
-import doMoveOperationsPart2
 import org.junit.jupiter.api.Test
-import parseMoves
-import parseStacks
-import supplyStacksPart1
-import supplyStacksPart1Solution2
 import kotlin.test.assertEquals
 
 internal class SupplyStacksKtTest {

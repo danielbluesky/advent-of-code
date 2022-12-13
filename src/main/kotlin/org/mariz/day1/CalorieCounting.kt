@@ -1,3 +1,5 @@
+package org.mariz.day1
+
 import java.io.File
 
 fun caloriesSolution1(fileName: String) {
