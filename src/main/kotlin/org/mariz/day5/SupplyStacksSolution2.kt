@@ -76,6 +76,14 @@ fun doMoveOperationsPart1(stacks: MutableMap<Int, MutableList<String>>, moveInst
     return stacks
 }
 
+fun calculateResult(stacks: MutableMap<Int, MutableList<String>>): String {
+    var result = ""
+    for (i in 1..stacks.size) {
+        result = result.plus(stacks[i]!!.last())
+    }
+    return result
+}
+
 fun doMoveOperationsPart2(stacks: MutableMap<Int, MutableList<String>>, moveInstructions: Map<Int, MutableList<Int>>, CrateMover: CrateMover): MutableMap<Int, MutableList<String>> {
     for (i in 0 until moveInstructions.size) {
         var numberOfElementsOut = moveInstructions[i]!!.elementAt(0)
@@ -104,7 +112,7 @@ fun doMoveOperationsPart2(stacks: MutableMap<Int, MutableList<String>>, moveInst
             val elementsOut = stacks[stackOut]!!
                 .reversed()
                 .chunked(min(maxChunkSize, numberOfElementsOut))[0]
-                .reversed();
+                .reversed()
             stacks[stackIn]!!.addAll(stacks[stackIn]!!.size, elementsOut)
             println("elements moved out in move $instruction: $elementsOut")
             println("stack in        after move $instruction: ${stacks[stackIn]!!}")
@@ -121,14 +129,6 @@ fun doMoveOperationsPart2(stacks: MutableMap<Int, MutableList<String>>, moveInst
         println("stack in  after move: ${stacks[stackIn]!!}")
     }
     return stacks
-}
-
-fun calculateResult(stacks: MutableMap<Int, MutableList<String>>): String {
-    var result = ""
-    for (i in 1..stacks.size) {
-        result = result.plus(stacks[i]!!.last())
-    }
-    return result
 }
 
 /*

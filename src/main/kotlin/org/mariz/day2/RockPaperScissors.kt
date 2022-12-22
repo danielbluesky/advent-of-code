@@ -34,6 +34,7 @@ val loosingRules = winningRules
     .toList()
     .associate { (k, v) -> v to k }
 
+// find symbol to match expected outcome (part 2)
 fun getElvesHand(o: Hand, outcome: String): Hand {
     return when (outcome) {
         "Y" -> elvesHand[elvesHand.filterValues { it == Hand(o.symbol) }.keys.first()]!!
