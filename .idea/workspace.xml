@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16d50c51-95f4-42f9-ab3f-a1d1c595a817" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input-day-6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day6/input-test-2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day1/CalorieCountingKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day1/CalorieCountingKtTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day2/RockPaperScissorsKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day2/RockPaperScissorsKtTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day3/RucksackKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day3/RucksackKtTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day4/CampCleanupKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day4/CampCleanupKtTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day5/SupplyStacksKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day5/SupplyStacksKtTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day6/TuningTroubleKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day6/TuningTroubleKtTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day8/TreetopTreeHouse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day8/TreetopTreeHouse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day8/TreetopTreeHouseKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day8/TreetopTreeHouseKtTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
         <option value="Kotlin File" />
       </list>
@@ -47,31 +42,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/Users/daniel/IdeaProjects/advent-of-code/src/test/kotlin/org/mariz/day6",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/daniel/IdeaProjects/advent-of-code/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/kotlin/org/mariz/day6" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin/org/mariz/day6" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/test/kotlin/org/mariz" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/org/mariz" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/org/mariz/day5" />
+      <recent name="$PROJECT_DIR$/src/test/kotlin/org/mariz/day6" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/kotlin/org/mariz/day6" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/test/kotlin/org/mariz/day6" />
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -81,18 +76,19 @@
       <recent name="org.mariz.day1" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.mariz.day8" />
       <recent name="org.mariz.day1" />
       <recent name="day1" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="org.mariz.day8" />
       <recent name="org.mariz.day5" />
       <recent name="org.mariz.day3" />
       <recent name="org.mariz.day4" />
       <recent name="org.mariz.day2" />
-      <recent name="org.mariz.day1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TuningTroubleKtTest (1)">
+  <component name="RunManager" selected="JUnit.TreetopTreeHouseKtTest.part2">
     <configuration name="CaloriesCountKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <extension name="coverage">
@@ -123,91 +119,110 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CaloriesCountKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreetopTreeHouseKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.mariz.day1.*" />
+          <option name="PATTERN" value="org.mariz.day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.mariz.day1" />
-      <option name="MAIN_CLASS_NAME" value="org.mariz.day1.CaloriesCountKtTest" />
+      <option name="PACKAGE_NAME" value="org.mariz.day8" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day8.TreetopTreeHouseKtTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CampCleanupKtTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreetopTreeHouseKtTest.part1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.mariz.day4.*" />
+          <option name="PATTERN" value="org.mariz.day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.mariz.day4" />
-      <option name="MAIN_CLASS_NAME" value="org.mariz.day4.CampCleanupKtTest" />
+      <option name="PACKAGE_NAME" value="org.mariz.day8" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day8.TreetopTreeHouseKtTest" />
+      <option name="METHOD_NAME" value="part1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreetopTreeHouseKtTest.part2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day8" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day8.TreetopTreeHouseKtTest" />
+      <option name="METHOD_NAME" value="part2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreetopTreeHouseKtTest.testPart1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day8" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day8.TreetopTreeHouseKtTest" />
+      <option name="METHOD_NAME" value="testPart1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreetopTreeHouseKtTest.testPart2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day8" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day8.TreetopTreeHouseKtTest" />
+      <option name="METHOD_NAME" value="testPart2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreetopTreeHousesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mariz.day8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mariz.day8" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day8.TreetopTreeHousesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RucksackKtTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreetopTreeHousesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.mariz.day3.*" />
+          <option name="PATTERN" value="org.mariz.day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.mariz.day3" />
-      <option name="MAIN_CLASS_NAME" value="org.mariz.day3.RucksackKtTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SupplyStacksKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mariz.day5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mariz.day5" />
-      <option name="MAIN_CLASS_NAME" value="org.mariz.day5.SupplyStacksKtTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TuningTroubleKtTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mariz.day6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mariz.day6" />
-      <option name="MAIN_CLASS_NAME" value="org.mariz.day6.TuningTroubleKtTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TuningTroubleKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mariz.day6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mariz.day6" />
-      <option name="MAIN_CLASS_NAME" value="org.mariz.day6.TuningTroubleKtTest" />
+      <option name="PACKAGE_NAME" value="org.mariz.day8" />
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day8.TreetopTreeHousesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -225,19 +240,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CampCleanupKtTest (1)" />
-      <item itemvalue="JUnit.RucksackKtTest (1)" />
-      <item itemvalue="JUnit.TuningTroubleKtTest" />
-      <item itemvalue="JUnit.TuningTroubleKtTest (1)" />
-      <item itemvalue="JUnit.SupplyStacksKtTest" />
+      <item itemvalue="JUnit.TreetopTreeHouseKtTest.part1" />
+      <item itemvalue="JUnit.TreetopTreeHouseKtTest.part2" />
+      <item itemvalue="JUnit.TreetopTreeHouseKtTest.testPart1" />
+      <item itemvalue="JUnit.TreetopTreeHouseKtTest.testPart2" />
+      <item itemvalue="JUnit.TreetopTreeHouseKtTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TuningTroubleKtTest (1)" />
-        <item itemvalue="JUnit.TuningTroubleKtTest" />
-        <item itemvalue="JUnit.CampCleanupKtTest (1)" />
-        <item itemvalue="JUnit.SupplyStacksKtTest" />
-        <item itemvalue="JUnit.RucksackKtTest (1)" />
+        <item itemvalue="JUnit.TreetopTreeHouseKtTest.part2" />
+        <item itemvalue="JUnit.TreetopTreeHouseKtTest.part1" />
+        <item itemvalue="JUnit.TreetopTreeHouseKtTest.testPart2" />
+        <item itemvalue="JUnit.TreetopTreeHouseKtTest.testPart1" />
+        <item itemvalue="JUnit.TreetopTreeHouseKtTest" />
       </list>
     </recent_temporary>
   </component>
@@ -418,7 +433,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670969634446</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="day 6: exercise 2">
+      <created>1670970105230</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1670970105230</updated>
+    </task>
+    <task id="LOCAL-00026" summary="day 8: exercise 1, some cleanup">
+      <created>1671743446386</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1671743446386</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -461,7 +490,9 @@
     <MESSAGE value="day 5: exercise 1, solution 2: tests" />
     <MESSAGE value="day 5: exercise 2 (wip)" />
     <MESSAGE value="day 6: exercise 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 6: exercise 1" />
+    <MESSAGE value="day 6: exercise 2" />
+    <MESSAGE value="day 8: exercise 1, some cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 8: exercise 1, some cleanup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -476,5 +507,8 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/advent_of_code$TreetopTreeHousesKt.ic" NAME="TreetopTreeHousesKt Coverage Results" MODIFIED="1671307248535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

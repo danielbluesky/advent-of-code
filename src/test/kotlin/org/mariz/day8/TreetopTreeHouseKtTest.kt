@@ -52,9 +52,21 @@ internal class TreetopTreeHouseKtTest {
     }
 
     @Test
+    fun testPart2() {
+        println(part2(testFile))
+        assertEquals(8, part2(testFile))
+    }
+
+    @Test
     fun part1() {
         println(part1(file))
         assertEquals(1845, part1(file))
+    }
+
+    @Test
+    fun part2() {
+        println(part2(file))
+        assertEquals(230112, part2(file))
     }
 
     // tests

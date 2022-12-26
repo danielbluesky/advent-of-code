@@ -10,6 +10,11 @@ fun part1(fileName: String): Int {
     return inputMatrix.countVisibleTrees()
 }
 
+fun part2(fileName: String): Int {
+    val inputMatrix: Matrix = readInput(fileName).toTable()
+    return inputMatrix.calculateScenicScore()
+}
+
 fun readInput(fileName: String): TableList {
     val tableList: TableList = mutableListOf()
     File(fileName).useLines {
@@ -35,6 +40,16 @@ fun TableList.toTable(): Matrix {
     return inputMatrix
 }
 
+fun Matrix.transpose(): Matrix {
+    val transposed: Matrix = Array(this.size) { IntArray(this.size) }
+    this.forEachIndexed { r, row ->
+        row.forEachIndexed { c, item ->
+            transposed[c][r] = item
+        }
+    }
+    return transposed
+}
+
 fun Matrix.countVisibleTrees(): Int {
     var count = 0
     this.forEachIndexed() { r, row ->
@@ -49,14 +64,32 @@ fun Matrix.countVisibleTrees(): Int {
     return count
 }
 
-fun Matrix.transpose(): Matrix {
-    val transposed: Matrix = Array(this.size) { IntArray(this.size) }
-    this.forEachIndexed { r, row ->
-        row.forEachIndexed { c, item ->
-            transposed[c][r] = item
+fun Matrix.calculateScenicScore(): Int {
+    var scenicScore = 0
+    this.forEachIndexed() { r, row ->
+        row.forEachIndexed() { c, _ ->
+            scenicScore = maxOf(scenicScore, row.scenicScore(c) * this.transpose()[c].scenicScore(r))
         }
     }
-    return transposed
+    return scenicScore
+}
+
+fun IntArray.scenicScore(index: Int): Int {
+    val scenicScore = if (this.isEdge(index)) {
+        0
+    } else {
+        val itemsToTheRight = this
+            .toList().subList(index + 1, this.size)
+            .takeWhileInclusive { this.toList()[index] > it }
+            .count()
+        val itemsToTheLeft = this
+            .toList().subList(0, index)
+            .reversed()
+            .takeWhileInclusive { this.toList()[index] > it }
+            .count()
+        itemsToTheRight * itemsToTheLeft
+    }
+    return scenicScore
 }
 
 fun IntArray.isEdge(index: Int): Boolean {
@@ -69,4 +102,15 @@ fun IntArray.isHidden(index: Int): Boolean {
             this.toList()[index] <= this.toList().subList(0, index).max() &&
             this.toList()[index] <= this.toList().subList(index + 1, this.toList().size).max()
         )
+}
+
+inline fun <T> Iterable<T>.takeWhileInclusive(
+    predicate: (T) -> Boolean
+): List<T> {
+    var shouldContinue = true
+    return takeWhile {
+        val result = shouldContinue
+        shouldContinue = predicate(it)
+        result
+    }
 }
