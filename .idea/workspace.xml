@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16d50c51-95f4-42f9-ab3f-a1d1c595a817" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day9/day9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day9/day9.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -451,7 +452,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672349589290</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="day 9: exercise 1, first working version">
+      <created>1672350214318</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1672350214318</updated>
+    </task>
+    <task id="LOCAL-00030" summary="day 9: exercise 1">
+      <created>1672353511870</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1672353511870</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -498,7 +513,8 @@
     <MESSAGE value="day 8: exercise 1, some cleanup" />
     <MESSAGE value="day 8: exercise 2, some cleanup" />
     <MESSAGE value="day 9: exercise 1, first working version" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 9: exercise 1, first working version" />
+    <MESSAGE value="day 9: exercise 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 9: exercise 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
