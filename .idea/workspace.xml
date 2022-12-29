@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16d50c51-95f4-42f9-ab3f-a1d1c595a817" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day8/TreetopTreeHouse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day8/TreetopTreeHouse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day8/TreetopTreeHouseKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/org/mariz/day8/TreetopTreeHouseKtTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day9/day9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day9/day9.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,25 +40,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/daniel/IdeaProjects/advent-of-code/src/main/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/Users/daniel/IdeaProjects/advent-of-code/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/test/kotlin/org/mariz" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/org/mariz" />
+      <recent name="$PROJECT_DIR$/src/test/kotlin/org/mariz" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/org/mariz/day5" />
       <recent name="$PROJECT_DIR$/src/test/kotlin/org/mariz/day6" />
     </key>
@@ -88,7 +86,7 @@
       <recent name="org.mariz.day2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TreetopTreeHouseKtTest.part2">
+  <component name="RunManager" selected="Kotlin.Day9Kt">
     <configuration name="CaloriesCountKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <extension name="coverage">
@@ -114,21 +112,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.mariz.day1" />
       <option name="MAIN_CLASS_NAME" value="org.mariz.day1.CaloriesCountKtTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreetopTreeHouseKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mariz.day8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mariz.day8" />
-      <option name="MAIN_CLASS_NAME" value="org.mariz.day8.TreetopTreeHouseKtTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -228,6 +211,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day9Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day9.Day9Kt" />
+      <module name="advent-of-code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -244,15 +234,15 @@
       <item itemvalue="JUnit.TreetopTreeHouseKtTest.part2" />
       <item itemvalue="JUnit.TreetopTreeHouseKtTest.testPart1" />
       <item itemvalue="JUnit.TreetopTreeHouseKtTest.testPart2" />
-      <item itemvalue="JUnit.TreetopTreeHouseKtTest" />
+      <item itemvalue="Kotlin.Day9Kt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day9Kt" />
         <item itemvalue="JUnit.TreetopTreeHouseKtTest.part2" />
         <item itemvalue="JUnit.TreetopTreeHouseKtTest.part1" />
         <item itemvalue="JUnit.TreetopTreeHouseKtTest.testPart2" />
         <item itemvalue="JUnit.TreetopTreeHouseKtTest.testPart1" />
-        <item itemvalue="JUnit.TreetopTreeHouseKtTest" />
       </list>
     </recent_temporary>
   </component>
@@ -447,7 +437,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671743446386</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="day 8: exercise 2, some cleanup">
+      <created>1672088360569</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1672088360569</updated>
+    </task>
+    <task id="LOCAL-00028" summary="day 9: exercise 1, first working version">
+      <created>1672349589290</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1672349589290</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -492,7 +496,9 @@
     <MESSAGE value="day 6: exercise 1" />
     <MESSAGE value="day 6: exercise 2" />
     <MESSAGE value="day 8: exercise 1, some cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 8: exercise 1, some cleanup" />
+    <MESSAGE value="day 8: exercise 2, some cleanup" />
+    <MESSAGE value="day 9: exercise 1, first working version" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 9: exercise 1, first working version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
