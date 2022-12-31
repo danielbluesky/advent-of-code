@@ -1,3 +1,4 @@
+/*
 package org.mariz.day9b
 
 import org.mariz.checkResult
@@ -5,8 +6,9 @@ import org.mariz.readInput
 import java.lang.IllegalArgumentException
 import kotlin.math.absoluteValue
 
+// obsolete solution using maps
 fun main() {
-    val testFile = "input-day-9-test-1"
+    val testFile = "input-day-9-test"
     val file = "input-day-9"
 
     fun part1(input: List<String>): Int {
@@ -117,3 +119,5 @@ fun String.directionDelta() = when (this) {
 
 fun Instruction.translateInstruction(): List<Delta> =
     List(this.distance) { this.direction.directionDelta() }
+
+*/

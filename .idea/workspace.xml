@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16d50c51-95f4-42f9-ab3f-a1d1c595a817" name="Changes" comment="day 9: exercise 2">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day9b/day9b.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="16d50c51-95f4-42f9-ab3f-a1d1c595a817" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day9/day9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/mariz/day9/day9.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +63,7 @@
       <recent name="$PROJECT_DIR$/src/test/kotlin/org/mariz/day6" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/org/mariz/day9c" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/test/kotlin/org/mariz/day6" />
       <recent name="$PROJECT_DIR$/src/test" />
@@ -87,7 +87,7 @@
       <recent name="org.mariz.day2" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day9bKt (1)">
+  <component name="RunManager" selected="Kotlin.Day9Kt">
     <configuration name="CaloriesCountKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <extension name="coverage">
@@ -114,54 +114,6 @@
       <option name="PACKAGE_NAME" value="org.mariz.day1" />
       <option name="MAIN_CLASS_NAME" value="org.mariz.day1.CaloriesCountKtTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreetopTreeHouseKtTest.part1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mariz.day8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mariz.day8" />
-      <option name="MAIN_CLASS_NAME" value="org.mariz.day8.TreetopTreeHouseKtTest" />
-      <option name="METHOD_NAME" value="part1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreetopTreeHouseKtTest.part2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mariz.day8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mariz.day8" />
-      <option name="MAIN_CLASS_NAME" value="org.mariz.day8.TreetopTreeHouseKtTest" />
-      <option name="METHOD_NAME" value="part2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreetopTreeHouseKtTest.testPart2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mariz.day8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mariz.day8" />
-      <option name="MAIN_CLASS_NAME" value="org.mariz.day8.TreetopTreeHouseKtTest" />
-      <option name="METHOD_NAME" value="testPart2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -203,8 +155,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day9bKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="Day9bKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.mariz.day9b.Day9bKt" />
+      <module name="advent-of-code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_day9Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mariz.day9b._day9Kt" />
       <module name="advent-of-code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -221,20 +180,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="JUnit.TreetopTreeHouseKtTest.part1" />
-      <item itemvalue="JUnit.TreetopTreeHouseKtTest.part2" />
-      <item itemvalue="JUnit.TreetopTreeHouseKtTest.testPart2" />
-      <item itemvalue="Kotlin.Day9Kt" />
-      <item itemvalue="Kotlin.Day9bKt (1)" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Day9bKt (1)" />
         <item itemvalue="Kotlin.Day9Kt" />
-        <item itemvalue="JUnit.TreetopTreeHouseKtTest.part2" />
-        <item itemvalue="JUnit.TreetopTreeHouseKtTest.part1" />
-        <item itemvalue="JUnit.TreetopTreeHouseKtTest.testPart2" />
+        <item itemvalue="Kotlin._day9Kt" />
+        <item itemvalue="Kotlin.Day9bKt" />
       </list>
     </recent_temporary>
   </component>
@@ -457,7 +407,28 @@
       <option name="project" value="LOCAL" />
       <updated>1672353511870</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="day 9: exercise 2, first working version">
+      <created>1672435408715</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1672435408715</updated>
+    </task>
+    <task id="LOCAL-00032" summary="day 9: exercise 2">
+      <created>1672483506268</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1672483506268</updated>
+    </task>
+    <task id="LOCAL-00033" summary="day 9: exercise 2">
+      <created>1672484322303</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1672484322303</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,7 +476,9 @@
     <MESSAGE value="day 8: exercise 2, some cleanup" />
     <MESSAGE value="day 9: exercise 1, first working version" />
     <MESSAGE value="day 9: exercise 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 9: exercise 1" />
+    <MESSAGE value="day 9: exercise 2, first working version" />
+    <MESSAGE value="day 9: exercise 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 9: exercise 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
