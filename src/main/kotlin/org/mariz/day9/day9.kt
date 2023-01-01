@@ -15,12 +15,9 @@ fun main() {
         input.forEach {
             for (headMove in it.parseInstruction().translateInstruction()) {
                 for (knot in ropeCoords.indices) {
-                    if (knot.isHead()) {
-                        ropeCoords.moveKnot(0, headMove)
-                    } else {
+                    if (knot.isHead()) ropeCoords.moveKnot(0, headMove) else {
                         val distance = ropeCoords.calculateDistance(knot)
-                        if (!distance.knotMustMove()) continue
-                        ropeCoords.moveKnot(knot, distance.calculateMove())
+                        if (distance.knotMustMove()) ropeCoords.moveKnot(knot, distance.calculateMove())
                     }
                 }
                 visitedCoords.add(ropeCoords[ropeCoords.size - 1])
