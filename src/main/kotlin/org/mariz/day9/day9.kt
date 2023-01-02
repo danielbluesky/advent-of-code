@@ -12,17 +12,23 @@ fun main() {
     fun part1(input: List<String>, ropeLength: Int): Int {
         val visitedCoords = mutableSetOf<Coord>()
         val ropeCoords = initialiseRopeCoords(ropeLength)
-        input.forEach {
-            for (headMove in it.parseInstruction().translateInstruction()) {
-                for (knot in ropeCoords.indices) {
-                    if (knot.isHead()) ropeCoords.moveKnot(0, headMove) else {
-                        val distance = ropeCoords.calculateDistance(knot)
-                        if (distance.knotMustMove()) ropeCoords.moveKnot(knot, distance.calculateMove())
+        input.forEach { line ->
+            line.parseInstruction()
+                .translateInstruction()
+                .forEach { headMove ->
+                    for (knot in ropeCoords.indices) {
+                        if (knot.isHead()) {
+                            ropeCoords.moveKnot(0, headMove)
+                        } else {
+                            val distance = ropeCoords.calculateDistance(knot)
+                            if (distance.knotMustMove()) ropeCoords.moveKnot(knot, distance.calculateMove())
+                        }
                     }
+                    visitedCoords.add(ropeCoords[ropeCoords.size - 1])
+                    // ropeCoords.prettyPrint(26)
                 }
-                visitedCoords.add(ropeCoords[ropeCoords.size - 1])
-            }
         }
+
         return visitedCoords.size
     }
 
@@ -75,12 +81,27 @@ fun String.calculateHeadMove() = when (this) {
     else -> throw IllegalArgumentException()
 }
 
-fun String.parseInstruction(): Instruction {
-    return Instruction(
-        this.substringBefore(" "),
-        this.substringAfter(" ").toInt()
-    )
-}
+fun String.parseInstruction() = Instruction(this.substringBefore(" "), this.substringAfter(" ").toInt())
 
-fun Instruction.translateInstruction(): List<Delta> =
-    List(this.distance) { this.direction.calculateHeadMove() }
+fun Instruction.translateInstruction() = List(this.distance) { this.direction.calculateHeadMove() }
+
+fun List<Coord>.prettyPrint(matrixSize: Int) {
+    if (matrixSize == 0) return
+
+    val chainSize = this.size
+    val matrixList = mutableListOf<String>()
+    repeat(matrixSize) { y ->
+        var line = ""
+        repeat(matrixSize) { x ->
+            val cell =
+                if (Coord(x, y) in this) {
+                    val idx = this.indexOf(Coord(x, y))
+                    if (idx == 0) "H" else if (idx == chainSize - 1) "T" else idx
+                } else "."
+            line += " $cell"
+        }
+        matrixList.add(line)
+    }
+    println(matrixList.reversed().joinToString("\n"))
+    print("\n")
+}
